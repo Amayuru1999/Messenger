@@ -1,5 +1,7 @@
 export default function Home() {
   return (
-  <div>Hello Messenger ! 🟡</div>
+  <div>
+    <p className="text-4xl font-bold">Hello Messenger ! 🟡</p>
+  </div>
   )
 }
