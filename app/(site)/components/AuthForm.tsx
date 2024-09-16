@@ -46,7 +46,7 @@ const AuthForm = () =>{
     }
 
     return(
-        <div>
+        <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
             <h1>AuthForm</h1>
         </div>
     )
