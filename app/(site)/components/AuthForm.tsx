@@ -47,7 +47,12 @@ const AuthForm = () =>{
 
     return(
         <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
-            <h1>AuthForm</h1>
+            <div className="bg-white px-4 py-8 sm:rounded-lg sm:px-10">
+                <form className="space-y-6" onSubmit={handleSubmit(onSubmit)}>
+
+                </form>
+
+            </div>
         </div>
     )
 }
